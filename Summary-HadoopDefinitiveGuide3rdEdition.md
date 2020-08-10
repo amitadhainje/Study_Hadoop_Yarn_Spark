@@ -1,6 +1,6 @@
 ### Important points from - HADOOP DEFINITIVE GUIDE 3RD EDITION
 
-##### CHAPTER - 1 - MEET HADOOP
+#### CHAPTER - 1 - MEET HADOOP
 
 * The amount of data is increasing. BIGDATA has arrived and hence we need a good framework to store and analyze the data efficiently.
 * Reading and writing the data in parallel would speed up our application.
@@ -14,7 +14,7 @@
 * Hadoop ecosystem consists of - HDFS, MapReduce, Avro, Pig, Hive, HBase, Sqoop, OOzie, Zookeeper.
 * Hadoop 2.x includes YARN.
 
-##### CHAPTER - 2 - MAPREDUCE
+#### CHAPTER - 2 - MAPREDUCE
 
 * MapReduce is a programming model for data processing. MapReduce has two phases - Map Phase and Reduce Phase. The programmer also specifies two functions: the map function and the reduce function.
 * The output from the map function is processed by the MapReduce framework before being sent to the reduce function. This processing sorts and groups the key-value pairs by key.
