@@ -1,0 +1,13 @@
+LEARNING SCALA
+
+1. Main scala language number types -
+	A. AnyVal - Double, Int, Long
+	B. ScalaNumber - BigDecimal and BigInt
+
+2. Classic Division in scala 
+	a. The answer of classic division = 10 / 20 = 0
+	b. The answer of True division = 10.0 / 20 = 0.5
+	c. The answer of True division = 10 / 20.5 = 0.4878048780487805
+	d. The answer of True division = 100.9 / 20.5 = 4.921951219512195
+
+3. 
