@@ -15,7 +15,7 @@ LEARNING SCALA
 4. We need to use double quotes in scala for defining strings. We cannot use single quotes. String Interpolation refers to substitution of defined variables or expressions in a given String with respected values. String Interpolation provides an easy way to process String literals. 
 Example -
 
-	val x = 20
+    val x = 20
     val y = 10
     // without s interpolator
     val str1 = "Sum of $x and $y is ${x+y}"
