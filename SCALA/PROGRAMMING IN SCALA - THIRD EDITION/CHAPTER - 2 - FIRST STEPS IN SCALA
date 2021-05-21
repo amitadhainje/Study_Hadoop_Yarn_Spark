@@ -1,0 +1,15 @@
+CHAPTER - 2 - FIRST STEPS IN SCALA
+
+1. Using scala version 2.12.11. Values of class Int correspond to Java's int values. More generally, all of Java's primitive types have corresponding classes in the scala package. For example,scala.Boolean corresponds to Java's boolean. scala.Float corresponds to Java's float. And when you compile your Scala code to Java bytecodes, the Scala compiler will use Java's primitive types where possible to give you the performance benefits of the primitive types.
+
+2. "VAL" is immutable, You cannot change the value. "VAR" is mutable, You can change the value of VAR 
+
+3. Performed hands on for -
+	1. Scala interpreter
+	2. Setup intelliJ for executing scala programs
+	3. Defined functions with return values
+	4. Defined void functions
+	5. Few hands-on with while and foreach loop
+	6. Passing command line arguments and printing it in the program.
+
+

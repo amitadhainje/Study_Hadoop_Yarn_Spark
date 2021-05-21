@@ -1,0 +1,17 @@
+CHAPTER - 1 - A SCALABLE LANGUAGE
+
+1. The name scala stands for "scalable language". It runs on standard JVM platform. Scala is a blend of object-oriented and functional programming concepts. 
+
+2. Scala lets you add new types that can be used as conveniently as built-in types. The same extension principle also applies to control structures. This kind of extensibility is illustrated by Akka, a Scala API for "actor-based" concurrent programming.
+
+3. By contrast, Scala is an object-oriented language in pure form: every value is an object and every operation is a method call. For example, when you say 1 + 2 in Scala, you are actually invoking a method named + defined in class Int. You can define methods with operator-like names that clients of your API can then use in operator notation.
+
+4. Scala has immutable lists, tuples, maps, and sets.
+
+5. It allows you to add value to existing code—to build on what you already have—because it was designed for seamless interoperability with Java.[9] Scala programs compile to JVM bytecodes. Their run-time performance is usually on par with Java programs. Scala code can call Java methods, access Java fields, inherit from Java classes, and implement Java interfaces. None of this requires special syntax, explicit interface descriptions, or glue code. In fact, almost all Scala code makes heavy use of Java libraries, often without programmers being aware of this fact.
+
+6. Another aspect of full interoperability is that Scala heavily re-uses Java types. Scala's Ints are represented as Java primitive integers of type int, Floats are represented as floats, Booleans asbooleans, and so on. Scala arrays are mapped to Java arrays. Scala also re-uses many of the standard Java library types. For instance, the type of a string literal "abc" in Scala isjava.lang.String, and a thrown exception must be a subclass of java.lang.Throwable.
+
+7. Scala programs tend to be short. Scala programmers have reported reductions in number of lines of up to a factor of ten compared to Java. These might be extreme cases. A more conservative estimate would be that a typical Scala program should have about half the number of lines of the same program written in Java. Fewer lines of code mean not only less typing, but also less effort at reading and understanding programs and fewer possibilities of defects. There are several factors that contribute to this reduction in lines of code. Semicolons are optional in scala.
+
+8. A static type system classifies variables and expressions according to the kinds of values they hold and compute. Scala stands out as a language with a very advanced static type system.
