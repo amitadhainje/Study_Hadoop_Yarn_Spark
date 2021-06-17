@@ -1,0 +1,13 @@
+CHAPTER - 3 - NEXT STEPS IN SCALA
+
+1. In Scala, you can instantiate objects, or class instances, using new. When you instantiate an object in Scala, you can parameterize it with values and types. Parameterization means "configuring" an instance when you create it.
+
+2. If a method takes only one parameter, you can call it without a dot or parentheses. The to in this example is actually a 
+method that takes one Int argument.
+
+3. Scala doesn't technically have operator overloading, because it doesn't actually have operators in the traditional sense. Instead, characters such as +, -, *, and / can be used in method names. Thus, when you typed 1 + 2 into the Scala interpreter in Step 1, you were actually invoking a method named + on the Int object 1, passing in 2 as a parameter.
+
+4. Perhaps the most common operator you'll use with lists is `::', which is pronounced "cons."Cons prepends a new element to the beginning of an existing list and returns the resulting list.
+
+5. Scala achieves a conceptual simplicity by treating everything, from arrays to expressions, as objects with methods.
+

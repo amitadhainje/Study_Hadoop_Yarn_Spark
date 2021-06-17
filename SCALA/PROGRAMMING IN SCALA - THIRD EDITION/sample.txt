@@ -1,0 +1,2 @@
+This is a sample file for scala file operations
+i am enjoying scala
